@@ -1112,7 +1112,7 @@ a:focus {
 }
 
 .info_section a {
-  color: #ffffff;
+  color: #000000; /* Changed from white to black */
 }
 
 .info_section h4 {
@@ -1133,7 +1133,7 @@ a:focus {
 .info_section .info-logo h2 {
   font-weight: bold;
   font-size: 2rem;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000; /* Changed from white to black */
   padding-bottom: 5px;
   margin-right: 15px;
 }
@@ -1146,13 +1146,14 @@ a:focus {
   list-style-type: none;
   position: relative;
   margin: 3px 0;
+  color: #000000;
 }
 
 .info_section .info-nav ul li::before {
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #ffffff;
+  background-color: #000000; /* Changed from white to black */
   position: absolute;
   top: 50%;
   left: -15px;
@@ -1196,6 +1197,7 @@ a:focus {
 .info_section .discover ul li {
   list-style-type: none;
   margin: 5px 0;
+  color: #000000;
 }
 
 .info_section .info_form {
